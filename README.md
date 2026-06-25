@@ -1,4 +1,5 @@
-# Lesson 2.3: Intro to CSS
+# Nextech Catapult Unit 2 CSS Practice
+Modified practice activities for quick CSS lesson.
 
 ## 🎯 Objectives
 - Understand the purpose and structure of CSS.
@@ -43,7 +44,4 @@ h1 {
 
 <br>
 
-By the end of this lesson, you'll have hands-on experience with the fundamental concepts of CSS, enabling you to enhance the styling of web pages. 
-
-Happy coding!
 
