@@ -22,12 +22,9 @@ h1 {
 }
 
 /* Change the width of each image by editing the width property. */
-img {
-    width: 200px;
-}
-
 /* Add space around each image by editing the padding and margin properties. */
 img {
+    width: 20px;
     padding: 5px;
     margin: 5px;
 }
