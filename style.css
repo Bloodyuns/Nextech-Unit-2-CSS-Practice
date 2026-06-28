@@ -1,38 +1,67 @@
 /* CSS styling for code along */
 
-/* Change the background color of the whole page by editing the background-color property. */
+/* Step 1: Use a basic tag selector to change the background color and page text styles. */
 body {
     font-family: 'Roboto Mono', monospace;
     font-size: 24px;
+    color: #333333;
     background-color: #ffe9ad;
 }
 
-/* Add a border around the header section by editing the border property. */
-.header {
-    border: 5px solid black;
-}
-
-/* Style the main heading by changing the width, padding, and font size. */
+/* Step 2: Use a basic tag selector to change the heading width and color. */
 h1 {
-    border-bottom: 2px solid #f1f1f1;
-    width: 30%;
-    padding: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 35px;
+    width: 50%;
+    color: #3b2f2f;
 }
 
-/* Change the width of each image by editing the width property. */
-/* Add space around each image by editing the padding and margin properties. */
+/* Step 3: Use a basic tag selector to change paragraph text size and color. */
+p {
+    font-size: 18px;
+    color: #4b4b4b;
+}
+
+/* Step 4: Use a class selector with the . selector to style the header section. */
+.header {
+    text-align: center;
+}
+
+/* Step 5: Use a class selector to style the title heading with a class name. */
+.title {
+    font-size: 35px;
+    color: #2f241d;
+}
+
+/* Step 6: Use a class selector to style the description paragraph. */
+.description {
+    font-size: 16px;
+    color: #5c4033;
+}
+
+/* Step 7: Use a class selector to style the images in the gallery. */
+.brown {
+    width: 180px;
+}
+
+/* Step 8: Add padding inside each image. */
 img {
-    width: 20px;
     padding: 5px;
+}
+
+/* Step 9: Add margin around each image. */
+img {
     margin: 5px;
 }
 
-/* Change the flex layout by editing the display and justify-content properties. */
+/* Step 10: Add a border around each image. */
+img {
+    border: 3px solid #8b5e3c;
+}
+
+/* Step 11: Use flexbox to place the image rows in the center. */
 .row1,
 .row2 {
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
 }
