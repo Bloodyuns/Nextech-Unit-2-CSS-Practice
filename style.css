@@ -38,25 +38,26 @@ body {
 /* Style the line by changing the size and color */
 
 
-/* Step 7: Use a class selector to style the images in the gallery. */
+
+/* ****************** */
+/* ****** STOP ****** */
+/* ****************** */
+
 .brown {
     width: 180px;
 }
 
-/* Step 8: Add padding inside each image. */
+/* Step 8: Add padding, margin, and and a border for each image*/
 img {
-    padding: 5px;
+    
 }
 
-/* Step 9: Add margin around each image. */
-img {
-    margin: 5px;
-}
 
-/* Step 10: Add a border around each image. */
-img {
-    border: 3px solid #8b5e3c;
-}
+
+/* ****************** */
+/* ****** STOP ****** */
+/* ****************** */
+
 
 /* Step 11: Use flexbox to place the image rows in the center. */
 .row1,
