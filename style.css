@@ -30,8 +30,7 @@ body {
 
 /* Step 5: Use a class selector to style the description paragraph. */
 .description {
-    font-size: 16px;
-    color: #5c4033;
+    /* Change the font size and color! */
 }
 
 /* Step 6: Create a new class selector for the line under the title. */
@@ -62,8 +61,10 @@ img {
 /* Step 11: Use flexbox to place the image rows in the center. */
 .row1,
 .row2 {
-    display: flex;
-    justify-content: center;
     gap: 10px;
+    /* Set the display to flex */
+
+    /* Set justify-content to center */
+
     flex-wrap: wrap;
 }
