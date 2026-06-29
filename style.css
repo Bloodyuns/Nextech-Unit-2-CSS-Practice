@@ -5,21 +5,30 @@ body {
     font-family: 'Roboto Mono', monospace;
     font-size: 12px;
     /* Change the background color and the text color */
-    
+    background-color: #5e8abd;
+    color: #b30101;
 }
 
 /* Step 2: Change the h1 heading width and color. */
-
+h1{
+    width: 100%;
+    color: #3f8b28;
+}
 
 /* Step 3: Change paragraph text size and color. */
-
+p {
+    font-size: 14px;
+    color: #643c00;
+}
 
 /* ****************** */
 /* ****** STOP ****** */
 /* ****************** */
 
 /* Step 4: Let's center the header! */
-
+.header{
+    text-align: center;
+}
 
 
 .title {
@@ -34,7 +43,10 @@ body {
 
 /* Step 6: Create a new class selector for the line under the title. */
 /* Style the line by changing the size and color */
-
+.subtitle{
+    font-size: 20px;
+    color: #3f8b28;
+}
 
 
 /* ****************** */
@@ -47,7 +59,9 @@ body {
 
 /* Step 8: Add padding, margin, and and a border for each image*/
 img {
-    
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #3f8b28;
 }
 
 
@@ -62,8 +76,8 @@ img {
 .row2 {
     gap: 10px;
     /* Set the display to flex */
-
+    display: flex;
     /* Set justify-content to center */
-
+    justify-content: center;
     flex-wrap: wrap;
 }
