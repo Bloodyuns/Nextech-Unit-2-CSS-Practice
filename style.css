@@ -19,22 +19,24 @@ body {
 /* ****** STOP ****** */
 /* ****************** */
 
-/* Step 4: Use a class selector with the . selector to style the header section. */
-.header {
-    text-align: center;
-}
+/* Step 4: Let's center the header! */
 
-/* Step 5: Use a class selector to style the title heading with a class name. */
+
+
 .title {
     font-size: 35px;
     color: #2f241d;
 }
 
-/* Step 6: Use a class selector to style the description paragraph. */
+/* Step 5: Use a class selector to style the description paragraph. */
 .description {
     font-size: 16px;
     color: #5c4033;
 }
+
+/* Step 6: Create a new class selector for the line under the title. */
+/* Style the line by changing the size and color */
+
 
 /* Step 7: Use a class selector to style the images in the gallery. */
 .brown {
